@@ -1,6 +1,6 @@
 # Tab Experiment
 
-I read an article on Dev.to about how to add arrows to the bottoms of divs.
+I read an [article on Dev.to](https://dev.to/flippedcoding/how-to-put-arrows-at-the-bottom-of-a-div-43i) about how to add arrows to the bottoms of divs.
 This gave me the idea to add arrows to the sides of divs to use as
 a tab indicator of sorts.
 

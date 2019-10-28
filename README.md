@@ -11,3 +11,5 @@ going in and out when selected.
 
 The tabs control what content is displayed using a `data` attribute and a short
 function to find the matching `div` with the matching `id`.
+
+See it live on [github pages](https://cptchuckles.github.io/tab-experiment/)

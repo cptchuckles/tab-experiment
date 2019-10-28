@@ -2,7 +2,7 @@
 
 const contents = document.querySelectorAll( ".content" );
 
-const sidebarItems = document.querySelectorAll("#sidebar>ul>li");
+const sidebarItems = document.querySelectorAll( "#sidebar>ul>li" );
 
 sidebarItems.forEach(li => {
   li.addEventListener("click", e => {
@@ -17,10 +17,9 @@ function showRelatedContentTab( tab ) {
   if( ! contentName ) return;
   
   contents.forEach( content => {
-    if( content.id == contentName ) {
-      content.style.visibility = "visible";
-    } else {
-      content.style.visibility = "hidden";
-    }
+    content.classList.toggle(
+      "displayedContent",
+      content.id == contentName
+    );
   });
 }

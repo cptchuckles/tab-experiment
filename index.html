@@ -8,32 +8,48 @@
     <script type="text/javascript" src="script.js" defer></script>
   </head>
   <body>
-    <div id="sidebar">
-      <ul>
-        <li data="one">one</li>
-        <li data="faggot">two</li> 
-        <li>three</li> 
-        <li class="selected">four</li> 
-        <li>five</li>
-      </ul>
+    <div class="container">
+      <div id="sidebar">
+        <ul>
+          <li data="one">First tab</li>
+          <li data="second">Second</li> 
+          <li data="bears">Stuff about bears</li> 
+          <li data="nougat">Learn nougats</li> 
+          <li data="test">Sample text</li>
+        </ul>
+      </div>
+      <!-- /sidebar -->
+      <div id="main">
+        <div class="content displayedContent">
+          <h1>Default content</h1> 
+          <p>this is the default content for the page</p>
+        </div>
+        <div class="content" id="one">
+          <h1>Tab One</h1> 
+          <p>
+            This is the content for tab one.
+          </p> 
+        </div>
+        <div class="content" id="second">
+          <h1>the second tab</h1> 
+          <p>This is what goes in the second tab</p> 
+          <p>this one has <em>two</em> paragraphs.</p>
+        </div>
+        <div class="content" id="bears">
+          <h3>bears aren't that scary</h3>
+          <p>I could probably <strong>fight them</strong>.</p>
+        </div>
+        <div class="content" id="nougat">
+          <h2>NOUGAT IS IN CANDY</h2> 
+          <h1>learn about nougats now</h1>
+        </div>
+        <div class="content" id="test">
+          <h1>Sample text</h1> 
+          <h3>Bottom Text</h3>
+        </div>
+      </div>
+      <!-- /main -->
     </div>
-    <div id="main">
-      <div class="content" id="default">
-        <h1>Default content</h1> 
-        <p>this is the default content for the page</p>
-      </div>
-      <div class="content" id="one">
-        <h1>Tab One</h1> 
-        <p>
-          This is the content for tab one.
-        </p> 
-      </div>
-      <div class="content" id="faggot">
-        <h1>Tab Faggot</h1> 
-        <p>
-          This is the content for tab faggot.
-        </p> 
-      </div>
-    </div>
+    <!-- /container -->
   </body>
 </html>

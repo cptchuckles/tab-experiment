@@ -15,7 +15,6 @@ body {
 
 #sidebar {
   display: block;
-/*position: absolute;*/
   float: left;
   left: 0;
   top: 0;
@@ -48,8 +47,15 @@ body {
   color: black;
   background-color: #9ad;
   border-bottom: 1px solid gray;
-  clip-path: polygon(0% 0%, 100% 0%, 100% 50%, 100% 100%, 0% 100%);
-  transition: background-color .3s, width .2s, clip-path .2s, padding-right .2s;
+  clip-path: polygon(0% 0%,
+                     100% 0%,
+                     100% 50%,
+                     100% 100%,
+                     0% 100%);
+  transition: background-color .3s,
+              width .2s,
+              clip-path .2s,
+              padding-right .2s;
 }
 
 #sidebar>ul>li:hover {
@@ -80,4 +86,6 @@ body {
 
 #main {
   display: block;
+  float: right;
+  width: calc(80% - 3rem);
 }

@@ -79,13 +79,16 @@ body {
   height: 0;
   width: auto;
   overflow: hidden;
+  transition: height .2s;
 }
 .displayedContent {
-  height: auto;
+  height: 100%;
+  overflow: auto;
 }
 
 #main {
   display: block;
   float: right;
   width: calc(80% - 3rem);
+  height: 100%;
 }
